@@ -1,6 +1,10 @@
 import z from "zod";
 
+<<<<<<< HEAD
 export interface ProductType {
+=======
+export type ProductType = {
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
   id: string | number | null;
   name: string | null;
   shortDescription: string;
@@ -14,9 +18,12 @@ export interface ProductType {
 export type ProductsType = ProductType[];
 
 export type CartItemType = ProductType & {
+<<<<<<< HEAD
   id: string | number;
   name: string;
   price: number;
+=======
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
   quantity: number;
   selectedSize: string;
   selectedColor: string;
@@ -66,3 +73,7 @@ export type CartStoreActionsType = {
   clearCart: () => void
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
