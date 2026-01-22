@@ -1,10 +1,18 @@
 "use client";
 
+<<<<<<< HEAD
 import PaymentForm from "@/components/PaymentForm";
 import ShippingForm from "@/components/ShippingForm";
 import { steps } from "@/constants";
 import useCartStore from "@/store/cartStore";
 import { ShippingFormInputs } from "@/types";
+=======
+import PaymentForm from "@/src/components/PaymentForm";
+import ShippingForm from "@/src/components/ShippingForm";
+import {  steps } from "@/src/constants";
+import useCartStore from "@/src/store/cartStore";
+import { ShippingFormInputs } from "@/src/types";
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
 import { ArrowRight, Trash2 } from "lucide-react";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
