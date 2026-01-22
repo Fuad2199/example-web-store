@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import ProductInteraction from "@/components/ProductInteraction";
 import { product } from "@/constants";
 import Image from "next/image";
@@ -63,6 +64,11 @@ const ProductPage = async ({
       </div>
     </div>
   );
+=======
+
+const ProductPage = () => {
+  return <div>ProductPage</div>;
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
 };
 
 export default ProductPage;

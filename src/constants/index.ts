@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { ProductsType } from './../types';
 import { CartItemsType, ProductType } from "../types";
+=======
+import { CartItemsType, ProductsType } from "../types";
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
 
 export const steps = [
   {
@@ -19,7 +23,11 @@ export const steps = [
 // TEMPORARY
 export const cartItems: CartItemsType = [
   {
+<<<<<<< HEAD
     id: 'product_1',
+=======
+    id: 1,
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
     name: "Adidas CoreFit T-Shirt",
     shortDescription:
       "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
@@ -38,7 +46,11 @@ export const cartItems: CartItemsType = [
     selectedColor: "gray",
   },
   {
+<<<<<<< HEAD
     id: 'product_2',
+=======
+    id: 2,
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
     name: "Puma Ultra Warm Zip",
     shortDescription:
       "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
@@ -53,7 +65,11 @@ export const cartItems: CartItemsType = [
     selectedColor: "gray",
   },
   {
+<<<<<<< HEAD
     id: 'product_3',
+=======
+    id: 3,
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
     name: "Nike Air Essentials Pullover",
     shortDescription:
       "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
@@ -183,6 +199,7 @@ export const products: ProductsType = [
     colors: ["blue", "green"],
     images: { blue: "/products/8b.png", green: "/products/8gr.png" },
   },
+<<<<<<< HEAD
 ];
 export const product: ProductType = {
   id: 1,
@@ -200,3 +217,6 @@ export const product: ProductType = {
     green: "/products/1gr.png",
   },
 };
+=======
+];
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6

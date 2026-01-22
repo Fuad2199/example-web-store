@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+// import Footer from "@/components/Layout/Footer";
+// import Header from "@/components/Layout/Header";
+>>>>>>> eb26e67de2bf53982a88c314700a89d25f93a6f6
 
 
 export default function AdminLayout({
