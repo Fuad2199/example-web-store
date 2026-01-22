@@ -1,6 +1,8 @@
 > Note: This project was developed as part of a step-by-step learning process. 
 > During early development, the focus was on architecture and implementation. 
 > Commit history was later refined to better reflect feature-based progress.
+Inspired by [OriginalRepo](https://github.com/safak/e-commerce-ui/tree/completed/client)
+
 
 ## Tech Stack
 
